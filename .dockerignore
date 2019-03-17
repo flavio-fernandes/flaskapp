@@ -1,0 +1,5 @@
+# Ignore some files that do not belong
+*/__pycache__
+*/requirements.txt
+*/test_*.py
+*/*.pyc
