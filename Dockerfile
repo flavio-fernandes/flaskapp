@@ -7,8 +7,8 @@ RUN pip install flask
 COPY src /src/
 
 WORKDIR /src
-ENV RELEASE=0.0.0
-ENV FLASK_DEBUG=1
+ENV RELEASE=this.is.the.release.12311
+ENV FLASK_DEBUG=0
 ENV FLASK_APP=app.py
 ENV TARGET=
 
